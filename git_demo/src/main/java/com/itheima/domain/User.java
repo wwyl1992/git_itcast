@@ -4,6 +4,7 @@ public class User {
 
     private String name;
     private String age;
+    private String addr;
 
     public String getName() {
         return name;
@@ -19,5 +20,13 @@ public class User {
 
     public void setAge(String age) {
         this.age = age;
+    }
+
+    public String getAddr() {
+        return addr;
+    }
+
+    public void setAddr(String addr) {
+        this.addr = addr;
     }
 }
